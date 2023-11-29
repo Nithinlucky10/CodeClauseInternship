@@ -59,7 +59,7 @@ public class CV {
                     JOptionPane.showMessageDialog(null, "PLEASE ENTER ALL DETAILS TO GENERATE CV");
                 } else {
                     try {
-                        String nameOfFile = "D:\\PDFYAHA\\my.pdf";
+                        String nameOfFile = "/resume/nithin.pdf";
                         Document myDocument = new Document();
                         PdfWriter.getInstance(myDocument, new FileOutputStream(nameOfFile));
                         myDocument.open();
